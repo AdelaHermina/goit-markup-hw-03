@@ -55,7 +55,9 @@ body {
   margin-right: 10px;
   width: 16px;
   height: 12px;
-  margin-left: 40px;
+}
+.mail-icon {
+  margin-left: 215px;
 }
 .what-we-do-icons {
   display: flex;
@@ -87,6 +89,7 @@ body {
 .icon {
   display: block;
   fill: currentColor;
+  color: #afb1b8;
 }
 .icons-list .icon svg {
   height: 20px;
@@ -114,14 +117,16 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-start;
-}
-.header-container ul li + li {
-  margin-left: 50px;
+  justify-content: space-between;
 }
 
 .header-container-mail {
-  margin-left: 325px;
+  margin-left: 10px;
+}
+.header-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .header-container-tel {
   margin-top: 32px;
@@ -134,15 +139,19 @@ body {
   color: var(--text-footer-color);
 }
 .logo-content {
-  margin-right: 93px;
-
+  display: flex;
+  margin-left: 0;
+  margin-right: auto;
+  align-items: center;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
   width: 145px;
   height: 31px;
-  margin: 24px 50px 25px 120px;
+
+  margin-top: 24px;
+  margin-bottom: 25px;
 }
 .logo-content-footer {
   font-weight: 700;
@@ -154,6 +163,7 @@ body {
 }
 .global-header a {
   color: #212121;
+  margin-right: 50px;
 }
 .global-footer {
   color: #ffffff;
@@ -172,16 +182,14 @@ body {
   letter-spacing: 0.03em;
 }
 
-.footer-text a {
-  color: var(--paragraf-color);
-}
 .footer-text-address {
   padding-top: 28px;
   font-size: 14px;
+  font-style: normal;
 }
 .footer-text-mail a {
   color: #757575;
-
+  font-style: normal;
   font-size: 14px;
   margin-bottom: 12px;
 }
@@ -219,9 +227,6 @@ body {
   color: var(--webstudio);
 
   letter-spacing: 0.03em;
-}
-.webstudio-footer {
-  padding-left: 120px;
 }
 
 .button {
